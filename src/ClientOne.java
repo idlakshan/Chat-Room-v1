@@ -25,6 +25,5 @@ public class ClientOne extends Application {
         primaryStage.centerOnScreen();
         primaryStage.show();
 
-
     }
 }
