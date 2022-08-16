@@ -2,6 +2,7 @@
 
 <?import com.jfoenix.controls.JFXButton?>
 <?import com.jfoenix.controls.JFXTextArea?>
+<?import javafx.scene.Cursor?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.image.Image?>
@@ -41,16 +42,25 @@
          <font>
             <Font name="Calibri Bold" size="17.0" />
          </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
       </JFXButton>
       <ImageView fitHeight="28.0" fitWidth="35.0" layoutX="363.0" layoutY="617.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../img/cam.png" />
          </image>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
       </ImageView>
       <ImageView fitHeight="28.0" fitWidth="35.0" layoutX="327.0" layoutY="617.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../img/emoji.png" />
          </image>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
       </ImageView>
       <JFXTextArea fx:id="txtAreaMessage" focusColor="#d3d7e1" layoutX="11.0" layoutY="113.0" prefHeight="487.0" prefWidth="492.0" unFocusColor="#f8e7e7" />
    </children>
