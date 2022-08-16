@@ -18,7 +18,6 @@ public class LoginFormController {
     static String username;
     public void btnLoginOnAction(ActionEvent event) throws IOException {
         username=txtUsername.getText();
-
         Stage stage1 = (Stage) txtUsername.getScene().getWindow();
         stage1.close();
         Stage stage2=new Stage();
